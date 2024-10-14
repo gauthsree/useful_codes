@@ -9,7 +9,7 @@ TARGET_BASE_PATH="/home/gauthams"
 #---------------------------------------
 
 if [ "$#" -ne 2 ]; then
-    echo "Usage: scpj '<file_pattern>' <TARGET_HOST>"
+    echo "Usage: scpj <'file_pattern'/file> <TARGET_HOST>"
     echo "Description: Bypass Gateway Using scp -J"
     exit 1
 fi
